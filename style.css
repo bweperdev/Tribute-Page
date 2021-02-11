@@ -6,24 +6,18 @@
 
 h1 {
     text-align: center;
-    font-family: 'Sofia';
-    font-size: 60px;
-    color: rgba(233, 219, 22, 0.849);
+    font-family: 'Cantata One', Verdana;
+    font-size: 50px;
+    color: rgb(204, 216, 36);
 }
 
-.img-slide {
-    align-content: center;
-    display: none;
-} 
-
-.slideshow-container {
-    box-shadow: 0 4px 8px 0 rgba(28, 202, 144, 0.281), 0 6px 20px 0 rgba(28, 202, 144, 0.281);
-    text-align: center;
-    max-width: 800px;
-    position: relative;
-    margin: auto;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
 }
-
 
 .quote {
     text-align: center;
@@ -63,4 +57,17 @@ h3 {
 
 a {
     background: wheat;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
 }
